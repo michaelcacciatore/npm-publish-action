@@ -128,11 +128,11 @@ async function createTag(dir, config, version) {
 }
 
 async function publishPackage(dir, config, version) {
-  await run(
-    dir,
-    "npm",
-    "publish",
-  );
+//   await run(
+//     dir,
+//     "npm",
+//     "publish",
+//   );
 
   console.log("Version has been published successfully:", version);
 }
