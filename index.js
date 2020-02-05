@@ -132,8 +132,6 @@ async function publishPackage(dir, config, version) {
     dir,
     "npm",
     "publish",
-    "--tag",
-    version
   );
 
   console.log("Version has been published successfully:", version);
